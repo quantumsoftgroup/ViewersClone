@@ -1,0 +1,8 @@
+{
+  "defaultServiceType": "gcloud",
+  "servers": {
+    "gcloud": [{
+      "name": "GCLOUD_DCM"
+    }]
+  }
+}

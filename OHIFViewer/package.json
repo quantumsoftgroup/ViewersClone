@@ -9,11 +9,12 @@
     "loglevel": "^1.6.1"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
     "puppeteer": "^1.5.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "meteor --settings ../config/orthancDICOMWeb.json --inspect"
+    "debug": "cross-env METEOR_PACKAGE_DIRS=../Packages/ meteor --settings ../config/gCloudDICOMWeb.json --inspect"
   },
   "author": "",
   "license": "MIT"
