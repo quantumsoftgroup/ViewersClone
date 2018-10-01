@@ -4,5 +4,11 @@
     "gcloud": [{
       "name": "GCLOUD_DCM"
     }]
+  },
+  "private": {
+    "gcloud_oauth2": {
+      "clientId": "insert your client_id here",
+      "secret": "insert your secret here"
+    }
   }
 }
